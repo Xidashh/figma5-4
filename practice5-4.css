@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* width: 1440px;
+    height: 2041px; */
+}
+
+.headerConteiner {
+    /* width: 1440px; */
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    background: #F1EBFF;
+}
+
+.contolBarConteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.buy {
+    color: #40D;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+a {
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.ditailConteiner {
+    display: flex;
+    justify-content: center;
+    margin: 64px 0px;
+
+}
+
+.bookingDitailsConteiner {
+    display: flex;
+    width: 1040px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.miniBookingDitail {
+    display: flex;
+    padding: 8px 24px 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    background: #F1EBFF;
+}
+
+.bookingSearch {
+    display: flex;
+    width: 56px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #40D;
+}
+
+.bookingImg {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: #FFFFFF;
+}
+
+.bookinParagrap {
+    color: #323232;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.imgConteiner {
+    display: flex;
+    justify-content: center;
+    margin: 64px 0px;
+}
+
+.imgMiniConteiner {
+    display: flex;
+    width: 1040px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgParagrap {
+    color: #5E6577;
+
+    text-align: right;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    width: 570px;
+    flex-shrink: 0;
+}
+
+.imgConteiner__img {
+    width: 422px;
+    height: 422px;
+    flex-shrink: 0;
+}
+
+.spanConteiner {
+    display: flex;
+    justify-content: center;
+    margin: 65px 0px;
+
+}
+
+.spanMiniConteiner {
+    display: flex;
+    gap: 24px;
+    max-width: 1040px;
+    width: 100%;
+    border-bottom: 1px solid #CCD3E0;
+}
+
+.spanDitail {
+    color: #40D;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.paragragDitail {
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.boxConteiner {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    margin: 64px 0px;
+
+}
+
+.boxMiniConteiner {
+    width: 1040px;
+    height: 266px;
+    flex-shrink: 0;
+    display: flex;
+    border-left: 2px solid #000;
+    border-top: 2px solid #8CE900;
+    border-right: 2px solid #155EEF;
+    border-bottom: 2px solid #DD2590;
+}
+
+.boxH3Conteiner {
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    width: 488px;
+    padding: 18px 25px;
+    align-items: flex-start;
+    display: flex;
+}
+
+.boxParagrapConteiner {
+    color: #969696;
+    width: 488px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 18px 23px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.secondBoxConteiner {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.secondBoxMiniConteiner {
+    display: flex;
+    width: 1040px;
+    height: 272px;
+    border-radius: 8px;
+    border: 1px solid #40D;
+    background: #EDE6FC;
+    padding: 16px 24px;
+}
+
+.secondboxH3Conteiner {
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    width: 488px;
+    padding: 18px 25px;
+    align-items: center;
+    display: flex;
+}
+
+.secondboxParagrapConteiner {
+    color: #969696;
+    width: 488px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 18px 23px;
+    display: flex;
+    align-items: center;
+}
+
+.thirdBoxConteiner {
+    display: flex;
+    justify-content: center;
+    margin: 65px 0px;
+
+}
+
+.thirdminiBoxConteiner {
+    display: flex;
+    width: 1040px;
+    height: 272px;
+    padding: 16px 24px;
+    align-items: flex-end;
+    gap: 16px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #004FE3;
+}
+
+.thirdh3Conteiner {
+    color: #07081A;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    width: 1040px;
+}
+
+.thirdparagrapConteiner {
+    color: #155EEF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-end;
+    width: 1040px;
+}
+
+.footerConteiner {
+    display: flex;
+    width: 1440px;
+    padding: 40px 200px 0px 928px;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 1px solid #F1EBFF;
+}
+
+.iconConteiner {
+    display: flex;
+align-items: center;
+gap: 24px;
+}
